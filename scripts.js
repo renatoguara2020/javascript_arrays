@@ -3,21 +3,21 @@
 
 
 
-//  const nomes = ['renato','nathan','creuza', 'sandra', 'risaldo', 'rubens','caroline','fernando','rubiana'];
+  const nomes = ['renato','nathan','creuza', 'sandra', 'risaldo', 'rubens','caroline','fernando','rubiana'];
 
-// const [n1,n2,n3,n4,n5,n6,n7,n8,n9] =nomes;
+const [n1,n2,n3,n4,n5,n6,n7,n8,n9] = nomes;
 
 // console.log(n1)
 // console.log(n9)
 // console.log(n5)
 
 
-// for(let i = 0; i < nomes.length; i++){
+for(let i = 0; i < nomes.length; i++){
 
 
 
-//     //console.log(nomes[i]);
-// }
+console.log(nomes[i]);
+ }
 
 // const letras = nomes.filter((n)=>{
 
