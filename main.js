@@ -50,11 +50,35 @@ console.log(!"")
 // console.log(exp1 || exp2)
 // console.log(!exp1 && exp2)
 
-// let nota1 = 9;
-// let nota2 = 8;
-// let nota3 = 7;
-// let nota4 = 10;
+let nota1 = 3;
+let nota2 = 8;
+let nota3 = 7;
+let nota4 = 10;
 
-// let media = console.log((nota1 + nota2 + nota3 + nota4)/4);
+let media = (nota1 + nota2 + nota3 + nota4)/4;
 
 
+if(media >= 8){
+
+    console.log("Aprovado")
+
+}else{
+
+    console.log("Reprovado")
+}
+
+
+var serie = 'Friends'
+
+console.log(serie)
+
+
+
+function calcular(n1, n2){
+
+
+    return n1 * n2
+}
+
+
+console.log(`A multiplicação é: ${calcular()}`)
