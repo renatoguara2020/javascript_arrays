@@ -28,10 +28,10 @@ class Pessoa {
   var pessoa = new Pessoa()
   
   
-  // pessoa.setIdade(55);
-  // pessoa.setNome("Renato Alves Soares")
-  // console.log(pessoa.getIdade())
-  // console.log(pessoa.getNome())
+   pessoa.setIdade(55);
+   pessoa.setNome("Renato Alves Soares")
+   console.log(pessoa.getIdade())
+   console.log(pessoa.getNome())
 
   // console.log(typeof null)
 
@@ -92,3 +92,7 @@ class Pessoa {
   console.log(funcionario.getSetor());
   console.log(funcionario.getSalario());
   
+
+  console.log(funcionario);
+
+  console.log(pessoa);
